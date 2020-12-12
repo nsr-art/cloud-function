@@ -4,10 +4,10 @@ import base64
 import json
 import sqlalchemy
 import pytz
-connection_name = "driven-bison-295809:us-central1:senior-project"
-db_name = "smart_home"
-db_user = "nsr-admin"
-db_password = "natthapon024299"
+connection_name = ""
+db_name = ""
+db_user = ""
+db_password = ""
 driver_name = 'mysql+pymysql'
 query_string = dict({"unix_socket": "/cloudsql/{}".format(connection_name)})
 def hello_pubsub(event, context):
